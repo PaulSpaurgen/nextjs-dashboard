@@ -38,7 +38,7 @@ export default function OverviewTabRowTwo() {
                   value: "absent",
                 },
               ]}
-              className="w-[145px]"
+              className="w-[200px]"
               sticker="New"
             />
             <Input placeholder="Search Here" className="w-[180px]" />
@@ -58,7 +58,7 @@ export default function OverviewTabRowTwo() {
           heading="Off Duty Employees (1)"
           isUnderlined={false}
         >
-          <div className="flex items-center gap-2 w-full md:w-1/2" >
+          <div className="flex items-center gap-2 w-full md:w-fit" >
             <Select
               label="All"
               options={[
@@ -76,7 +76,7 @@ export default function OverviewTabRowTwo() {
                 },
                 
               ]}
-              className="w-[120px]"
+              className="max-w-[80px]"
             />
             <Select
               label="All"
@@ -94,7 +94,7 @@ export default function OverviewTabRowTwo() {
                   value: "absent",
                 },
               ]}
-              className="w-[120px]"
+              className="max-w-[80px]"
             />
             <Input placeholder="Search Here" className="w-[180px]" />
           </div>

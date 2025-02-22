@@ -37,7 +37,7 @@ export default function Select({
   };
 
   return (
-    <div className={`relative w-full px-4 py-[12px]  bg-white rounded-full border-[1px] border-gray-300 ${className}`}>
+    <div className={`relative px-4 py-[12px]  bg-white rounded-full border-[1px] border-gray-300 ${className}`}>
       {label && (
         <button
           className={`flex items-center  gap-4 absolute transition-all duration-300 ease-in-out ${
