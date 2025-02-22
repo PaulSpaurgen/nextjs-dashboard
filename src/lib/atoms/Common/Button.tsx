@@ -8,7 +8,8 @@ interface ButtonProps {
   onClick?: () => void;
   className?: string;
   disabled?: boolean;
-  role?: "button" | "tab";
+  role?: "button" | "tab" ;
+  type?: "button" | "submit" | "reset";
 }
 
 export default function Button({

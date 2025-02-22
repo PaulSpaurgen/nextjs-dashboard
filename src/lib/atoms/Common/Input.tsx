@@ -10,6 +10,7 @@ interface InputProps {
   className?: string;
   type?: string;
   placeholder?: string;
+  autoComplete?: string;
 }
 
 export default function Input({
@@ -18,6 +19,7 @@ export default function Input({
   className = "",
   type = "text",
   placeholder,
+  autoComplete,
 }: InputProps) {
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -31,6 +33,7 @@ export default function Input({
         placeholder={placeholder}
         onChange={(e) => onChange?.(e.target.value)}
         className={`w-full outline-none bg-transparent text-sm `}
+        autoComplete={autoComplete}
       />
     </div>
   );
