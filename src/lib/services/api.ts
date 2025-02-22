@@ -4,9 +4,7 @@ export class DashboardService {
   static async getDashboardData() {
     // TODO: Implement actual API call
     setTimeout(() => {
-     
-    }, 1000);
-
-    return dashboardData;
+       return dashboardData;
+    }, 2000);
   }
 } 
