@@ -5,6 +5,7 @@ import Image from "next/image";
 import Input from "@/lib/atoms/Common/Input";
 import Button from "@/lib/atoms/Common/Button";
 import { redirect } from "next/navigation";
+import { FaGoogle } from "react-icons/fa";
 
 export default function LoginPage() {
     
@@ -54,13 +55,27 @@ export default function LoginPage() {
           </div>
           <Button
             variant="primary"
-            className="w-full"
+            className="w-full text-center"
             onClick={() => {
               redirect("/dashboard");
             }}
           >
             Sign In
           </Button>
+          <p className="text-center text-gray-600">or</p>
+          <Button
+            variant="primary"
+            className="w-full text-center"
+            onClick={() => {
+              redirect("/dashboard");
+            }}
+            Icon={FaGoogle}
+          >
+            Sign In with Google
+          </Button>
+
+         
+
         </form>
       </div>
     </div>
