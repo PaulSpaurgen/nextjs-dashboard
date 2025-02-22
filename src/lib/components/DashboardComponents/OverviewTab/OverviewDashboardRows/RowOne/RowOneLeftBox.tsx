@@ -73,9 +73,9 @@ export function PunchInOutCard({
     <div className="flex w-full flex-col  items-center">
       <div className="flex gap-2 items-center justify-center">
         <span>{icon || <FaStar />}</span>
-        <span className="text-md font-bold mt-[2px]">{value}</span>
+        <span className="text-sm md:text-md font-bold mt-[2px] ">{value}</span>
       </div>
-      <p className="text-sm font-bold w-full text-center">{label}</p>
+      <p className="text-xs md:text-sm font-bold w-full text-center">{label}</p>
     </div>
   );
 }

@@ -31,7 +31,7 @@ export default function OverviewTabRowFour() {
             tooltipText="This is a tooltip"
           />
           <div className="w-full h-full flex justify-center items-center flex-col ">
-            <div className="flex gap-4 w-full pt-4 ">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full pt-4 ">
               <PunchInOutCard label="Not Yet Started" value={0} />
               <PunchInOutCard label="delayed"value={0} />
               <PunchInOutCard label="In Progress" value={0}  />

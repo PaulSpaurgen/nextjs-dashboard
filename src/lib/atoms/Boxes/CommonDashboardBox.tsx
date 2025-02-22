@@ -51,7 +51,7 @@ export function DashboardBoxTitle({
 
   return (
     <div
-      className={`pb-[1px] w-full flex justify-between items-center w-fit ${
+      className={`pb-[1px] w-full flex justify-between gap-2 items-start md:items-center w-fit flex-col md:flex-row ${
         isUnderlined ? "border-b-[1px] border-gray-300" : ""
       }`}
     >
